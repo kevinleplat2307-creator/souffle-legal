@@ -1,0 +1,40 @@
+/* Pages légales de Souffle : couleurs de l'app (sable, ardoise, sauge), polices du téléphone (aucune ressource externe). */
+:root {
+  --bg: #F7F5F0;
+  --card: #FFFFFF;
+  --ink: #3A403A;
+  --ink2: #5E6B5B;
+  --line: #E4E1D8;
+  --accent: #4E6B4A;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1A1E1A;
+    --card: #222722;
+    --ink: #EDEAE2;
+    --ink2: #A9B3A5;
+    --line: #343A34;
+    --accent: #C5D1BF;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 2.3rem; line-height: 1.15; margin: 4px 0 6px; }
+h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 1.45rem; margin: 2em 0 0.4em; }
+p, li { margin: 0 0 0.8em; }
+ul { padding-left: 1.2em; }
+a { color: var(--accent); text-underline-offset: 3px; }
+.eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink2); margin: 0; }
+.eyebrow a { color: inherit; text-decoration: none; }
+.meta { color: var(--ink2); font-size: 0.9rem; }
+.lead { font-size: 1.1rem; color: var(--ink2); }
+.links { list-style: none; padding: 0; margin: 2em 0; }
+.links li { margin: 0 0 10px; }
+.links a { display: block; padding: 16px 18px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; text-decoration: none; color: var(--ink); font-weight: 600; min-height: 48px; }
+.foot { margin-top: 3em; padding-top: 1.2em; border-top: 1px solid var(--line); color: var(--ink2); font-size: 0.95rem; }
