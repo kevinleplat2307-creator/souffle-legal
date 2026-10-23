@@ -1,4 +1,4 @@
-# Souffle — pages légales
+# Exhal — pages légales
 
-Politique de confidentialité et conditions d'utilisation de l'application Souffle (Sillon Studio), publiées avec GitHub Pages.
+Politique de confidentialité et conditions d'utilisation de l'application Exhal (Sillon Studio, anciennement « Souffle »), publiées avec GitHub Pages.
 Source : dossier `legal/` du dépôt de l'application.
